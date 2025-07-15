@@ -929,6 +929,7 @@ a {
 .tech_img {
     width: 400px;
     height: 275px;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) {
