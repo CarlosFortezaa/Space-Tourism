@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Space tourism website</title>
+</head>
+
+<body class="planet-body">
+  <div class="planet-body-bg"></div>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav_logo">
+        <picture>
+          <a href="index.html"><img src="assets/shared/logo.svg" alt="logo"></a>
+        </picture>
+      </div>
+
+      <div class="nav_dropdown">
+        <div class="mobile_menu" id="mobileMenu">
+          <button id="closeMenu" class="close_btn">
+            <img src="assets/shared/icon-close.svg" alt="close">
+          </button>
+          <ul class="mobile_menu_links">
+            <li><a href="index.html"><span>00</span> Home</a></li>
+            <li><a href="destination-moon.html" class="active"><span>01</span> Destination</a></li>
+            <li><a href="crew-commander.html"><span>02</span> Crew</a></li>
+            <li><a href="technology-vehicle.html"><span>03</span> Technology</a></li>
+          </ul>
+        </div>
+
+        <button class="nav_dropdown_btn">
+          <img src="assets/shared/icon-hamburger.svg" alt="dropdown">
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="planet_info_principal">
+    <div class="planet_titulo">
+      <div class="planet_titulo_num">
+        <h3 class="planet_h3">01</h3>
+      </div>
+      <div class="planet_titulo_text">
+        <h3 class="planet_h3 white">Pick Your Destination</h3>
+      </div>
+    </div>
+    <div class="planet_info">
+      <div class="planet_img">
+        <img src="assets/destination/image-europa.png" alt="Europa">
+      </div>
+
+      <div class="planet_desc">
+        <nav class="planet_nav_menu">
+          <a href="destination-moon.html">Moon</a>
+          <a href="destination-mars.html">Mars</a>
+          <a href="destination-europa.html" class="active">Europa</a>
+          <a href="destination-titan.html">Titan</a>
+        </nav>
+        <h1 class="planet_h1">Europa</h1>
+        <p class="planet_p">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover's dream.
+          With an icy surface, it's perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug
+          wintery cabin.
+        </p>
+        <div class="line"></div>
+        <div class="planet_stats">
+          <div class="planet_distance">
+            <h3 class="distance_h3">Avg. Distance</h3>
+            <h2 class="white distance_h2">628 Mil. Km</h2>
+          </div>
+          <div class="planet_travel_time">
+            <h3 class="distance_h3">Est. Travel Time</h3>
+            <h2 class="white distance_h2">3 Years</h2>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</body>
+<script src="JS/app.js"></script>
+
+</html>
